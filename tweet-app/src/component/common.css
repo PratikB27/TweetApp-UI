@@ -1,0 +1,91 @@
+.loginForm{
+  float: left;
+  width:280px;
+  height:360px;
+  border:box-shadow;
+  margin-top: 200px;
+  margin-left: 280px;
+}
+
+.registerForm{
+  float: left;
+  border:box-shadow;
+  width:280px;
+  height:360px;
+  margin-top: 200px;
+  margin-left: 280px;
+}
+
+.forgotForm{
+  float: left;
+  border:box-shadow;
+  width:280px;
+  height:360px;
+  margin-top: 200px;
+  margin-left: 280px;
+}
+
+.loginForm h3{
+  font-size: 30px;
+  color: aqua;
+}
+
+.form-group{
+  color: rgb(29, 116, 143);
+}
+
+.form-group label{
+  font-size: 20px;
+}
+
+.loginForm p{
+  font-size: 20px;
+}
+
+.SignUp{
+  color:  rgb(29, 116, 143);
+}
+
+.forgot-password{
+  color:  rgb(29, 116, 143);
+}
+
+.registerForm h3{
+  font-size: 30px;
+  color: aqua;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.registerForm p{
+  font-size: 20px;
+}
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #50b7f5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+    color: black;
+    height: 5%;
+  }
+
+
+.searchBox{
+  width: 350px;
+  height: 30px;
+}
+
+.SearchBtn{
+  height: 30px;
+}
+
+.forgotLogin {
+   width: 150px;
+   height: 60px;
+   font-size: 20px;
+}

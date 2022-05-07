@@ -1,0 +1,20 @@
+.row{
+    float:right;
+    width: 930px;
+    margin-left:10px;  
+}
+
+.table {
+   align-self: auto;
+   
+}
+
+.table td{
+    font-size: 15px;
+}
+
+.replybox{
+    width: 280px;
+    height: 40px;
+}
+

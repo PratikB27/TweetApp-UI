@@ -1,0 +1,11 @@
+.inputName{
+  display: flex;
+  line-height: 26px;
+  margin-bottom: 10px;
+  color: rgb(240, 112, 62);
+}
+
+.form-control{
+  height: 40px;
+}
+

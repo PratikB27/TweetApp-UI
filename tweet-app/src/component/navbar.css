@@ -1,0 +1,91 @@
+.navbar{
+  width: 100%;
+  max-width: 100%;
+  min-height: 6vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(241, 146, 146);
+  transition: all .2s ease;
+  
+}
+
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(136, 223, 102);
+}
+.logo img{
+  width: 50px;
+}
+
+.twitterIcon{
+  color: #0997cf;
+  font-size: 50px !important;
+  
+}
+
+.navigation ul{
+  box-sizing: border-box;
+  list-style-type: none;
+  display: flex;
+  min-height: 6vh;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation  li{
+  text-align: center;
+  padding: .5em;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.navigation li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.navigation li:hover > a{
+  background-color: rgb(92, 88, 92);
+  color: rgb(17, 16, 16);
+}
+
+
+.navvcontainer {
+  background-position: inherit;
+  padding-top:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#navst-box {
+  float:left;
+  width:60px;
+  height:40px;
+  border:box-shadow;
+  margin-left: 30px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+}
+#navnd-box {
+  float:left;
+  width:590px;
+  height:40px;
+  justify-content: center;
+  margin-left:40px;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+#navrd-box {
+  float:right;
+  width: 540px;
+  height:40px;
+  border: box-shadow;
+  margin-left:100px;
+  margin-bottom: 4px;
+  margin-top: 3px;
+  
+}
