@@ -48,7 +48,7 @@ class TweetBox extends Component {
     this.form.validateAll();
     if (this.checkBtn.context._errors.length === 0) {
       const {user} = this.state;
-      var loginId = user.userId;
+      var loginId = user;
       console.log(loginId);
       console.log(this.state.username);
       TweetDataService.postTweet(loginId,this.state.username).then(
@@ -90,7 +90,7 @@ class TweetBox extends Component {
           >
             <div className="form-group">
               <label className="post" >Want To Tweet Something?..</label>
-              <label className="inputName"   htmlFor="username">@{user.userId}</label>
+             
               
               <textarea
                 type="text"

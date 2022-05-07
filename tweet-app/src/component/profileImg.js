@@ -20,7 +20,7 @@ export default class Profile extends Component {
               <Card style={{ width: '8rem' }}>
               <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2018/11/13/21/43/avatar-3814049_1280.png" />
               <Card.Body>
-              <Card.Title><small>@{user.userId}</small></Card.Title>
+              <Card.Title><small>@{this.state.user}</small></Card.Title>
               </Card.Body>
               </Card>
               </div>
